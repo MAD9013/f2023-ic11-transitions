@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercise 11 - Transitions</title>
-  <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body id="page">
@@ -15,26 +14,26 @@
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
-  <header class="masthead">
+  <header class="navbar">
     <div class="container">
-      <h1 class="masthead__headline" href="#">
-        <a class="masthead__logo" href="#">
-          <img class="masthead__icon" src="./images/madd-logo.svg" alt="MADD Logo">
-          <span class="masthead__title">Transitions</span>
+      <h1 class="navbar__headline" href="#">
+        <a class="navbar__logo" href="#">
+          <img class="navbar__icon" src="./images/madd-logo.svg" alt="MADD Logo">
+          <span class="navbar__title">Transitions</span>
         </a>
       </h1>
-      <nav id="nav" class="masthead__nav">
-        <ul class="masthead__list">
-          <li><a class="masthead__link" href="#get-started">Get Started</a></li>
-          <li><a class="masthead__link" href="#resources">Resources</a></li>
+      <nav id="nav" class="navbar__nav">
+        <ul class="navbar__list">
+          <li><a class="navbar__link" href="#get-started">Get Started</a></li>
+          <li><a class="navbar__link" href="#resources">Resources</a></li>
         </ul>
       </nav>
-      <a class="nav-toggle" href="#nav">
+      <button class="nav-toggle">
         <span class="nav-toggle__tog nav-toggle__tog--top"></span>
         <span class="nav-toggle__tog nav-toggle__tog--middle"></span>
         <span class="nav-toggle__tog nav-toggle__tog--bottom"></span>
         <span class="screen-reader-text">Click to open the mobile navigation.</span>
-      </a>
+      </button>
     </div>
   </header>
 
@@ -68,22 +67,22 @@
 
     <section id="resources" class="card-group" tabindex="0">
       <div class="container">
-      <h2 class="card-group__title">Resources</h2>
-        <a class="card" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties" aria-label="Learn more about animatable CSS properties in Firefox">
+        <h2 class="card-group__title">Resources</h2>
+        <a class="card" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties">
           <div class="card__content">
             <h3 class="card__title">Animatable CSS Properties</h3>
             <p class="card__text">A list of animatable CSS properties in Firefox.</p>
             <span class="btn">Learn More</span>
           </div>
         </a>
-        <a class="card" href="https://www.joshwcomeau.com/animation/css-transitions/" aria-label="View the Interactive Guide to CSS Transitions">
+        <a class="card" href="https://www.joshwcomeau.com/animation/css-transitions/">
           <div class="card__content">
             <h3 class="card__title">Interactive Guide to CSS Transitions</h3>
               <p class="card__text">A great guide for visualizing and understanding CSS Transitions.</p>
             <span class="btn" href="#">Learn More</span>
           </div>
         </a>
-        <a class="card" href="https://cubic-bezier.com/" aria-label="Visit the accessibility checklist reference">
+        <a class="card" href="https://cubic-bezier.com/">
           <div class="card__content">
             <h3 class="card__title">Cubic Bezier Generator</h3>
             <p class="card__text">An easy to use <code class="code--inline">cubic-bezier()</code> tool for generating good transition timings.</p>
